@@ -71,7 +71,7 @@ class AgentLoop:
             brave_api_key=brave_api_key,
             exec_config=self.exec_config,
             restrict_to_workspace=restrict_to_workspace,
-            memory=self.context.memory, # Pass memory to subagents
+            # memory=self.context.memory, # Pass memory to subagents
         )
         
         self._running = False
