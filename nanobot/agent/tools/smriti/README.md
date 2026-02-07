@@ -1,6 +1,6 @@
-# MemoryBox (Nanobot Tool)
+# Smriti (Nanobot Tool)
 
-MemoryBox is a small, auditable memory layer for Nanobot: **Markdown is the source of truth**, and **SQLite (FTS5 if available)** provides fast recall. Designed to be simple, reversible (soft-delete), and easy to inspect in a Git repo.
+Smriti is a small, auditable memory layer for Nanobot: **Markdown is the source of truth**, and **SQLite (FTS5 if available)** provides fast recall. Designed to be simple, reversible (soft-delete), and easy to inspect in a Git repo.
 
 ## What it does
 - Stores short memory items (note/fact/todo/decision/pref)
