@@ -7,7 +7,7 @@ import platform
 from pathlib import Path
 from typing import Any
 
-from nanobot.agent.memory import MemoryStore
+from nanobot.agent.tools.smriti_lite import MemoryStore
 from nanobot.agent.skills import SkillsLoader
 
 

@@ -4,7 +4,7 @@ from __future__ import annotations
 from typing import Any
 
 from nanobot.agent.tools.base import Tool
-from nanobot.agent.tools.smriti.store import MemoryStore
+from nanobot.agent.tools.smriti_lite import MemoryStore
 
 class MemoryTool(Tool):
     def __init__(self, memory: MemoryStore):
